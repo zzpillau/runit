@@ -1,5 +1,5 @@
 .socialButton {
-  .mantine-Button-label {
+   :global(.mantine-Button-label) {
     white-space: normal;
   }
 }
