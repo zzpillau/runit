@@ -5,6 +5,14 @@ import { Anchor, Center, Flex, Modal, Title } from '@mantine/core';
 import { actions } from '../../slices';
 import NewForgotPasswordForm from '../Forms/ForgotPasswordForm/NewForgotPasswordForm';
 
+/**
+ * Модальное окно сброса пароля.
+ *
+ * Содержит форму для сброса пароля и
+ * ссылку на окно входа.
+ */
+
+
 function NewForgotPasswordModal({ handleClose, isOpen }) {
   const { t: tFP } = useTranslation('translation', { keyPrefix: 'forgotPass' });
   const dispatch = useDispatch();
